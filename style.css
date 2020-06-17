@@ -68,12 +68,24 @@ hr {
   height: 300px;
   border-radius: 100%;
 }
+.myphoto:hover {
+  width: 350px;
+  height: 350px;
+  border-radius: 0;
+}
 .htmlimg {
   width: 300px;
   height:auto;
   border-radius: 25%;
 
 }
+.htmlimg:hover {
+  width: 350px;
+  height:auto;
+  border-radius: 0;
+
+}
+
 .bottom  {
   font-size: 30px;
 }
@@ -81,4 +93,16 @@ hr {
   width: 40px;
   height: 40px;
   margin: 10px;
+  margin-bottom: 20px;
+}
+.logo:hover
+{
+  width: 60px;
+  height: 60px;
+}
+.school:hover{
+  color:green;
+}
+img {
+  width: 100%;
 }
